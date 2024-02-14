@@ -1,0 +1,24 @@
+{
+  "name": "nxauth-oauth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^1.3.3",
+    "@prisma/client": "^5.9.1",
+    "bcryptjs": "^2.4.3",
+    "next": "14.0.4",
+    "next-auth": "^5.0.0-beta.9",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.9.9",
+    "prisma": "^5.9.1"
+  }
+}
